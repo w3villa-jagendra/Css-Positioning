@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+   width: 1000px;
+   height: 300vh;
+   border:2px solid black;
+   margin: auto;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+    
+
+   
+}
+
+.bx1{
+    background-color: rgb(248, 82, 82);
+    position: static;
+  
+}
+
+.bx2{
+    background-color: rgb(86, 86, 247);
+    position: relative;
+    left: 110px;
+    bottom: 116px;
+}
+
+.bx3{
+    background-color: yellow;
+    position: absolute;
+    left: 454px;
+    top: 3px;
+}
+
+.bx4{
+    background-color: pink;
+    position: fixed;
+    left: 564px;
+    top: 3px;
+}
+
+.bx5{
+    background-color: skyblue;
+    position: sticky;
+    left: 683px;
+    top: 13px;
+   
+}
